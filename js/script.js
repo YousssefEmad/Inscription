@@ -1,8 +1,4 @@
-/*
-Author       : Code-Theme
-Template Name: Inscription
-Version      : 1.0
-*/
+
 
 "use strict";
 
@@ -412,3 +408,68 @@ jQuery(document).on('ready', function ($) {
     });
 
 }(jQuery));
+$('.style1').owlCarousel({
+                loop: true,
+                margin: 10,
+                autoplay: true,
+                autoplayTimeout: 5000,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    400: {
+                        items: 1,
+                        margin: 20
+                    },
+                    500: {
+                        items: 1,
+                        margin: 20
+                    },
+                    768: {
+                        items: 2,
+                        margin: 20
+                    },
+                    991: {
+                        items: 2,
+                        margin: 20
+                    },
+                    1025: {
+                        items: 4,
+                        margin: 20
+                    }
+                }
+            });
+
+$('.slick-lancers').slick({
+                infinite: false,
+                slidesToShow: 5,
+                slidesToScroll: 1,
+                dots: true,
+                arrows: true,
+                adaptiveHeight: true,
+                responsive: [{
+                    breakpoint: 1292,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                        dots: true,
+                        arrows: false
+                    }
+                }, {
+                    breakpoint: 993,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                        dots: true,
+                        arrows: false
+                    }
+                }, {
+                    breakpoint: 769,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        dots: true,
+                        arrows: false
+                    }
+                }]
+            });

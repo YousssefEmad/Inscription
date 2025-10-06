@@ -32,7 +32,7 @@ Version      : 1.0
             var swiper = new Swiper('.banner_box_wrapper .swiper-container', {
                 speed: 1000,
                 loop: true,
-                autoplay: false,
+                autoplay: true,
                 slidesPerView: 1,
                 navigation: {
                     nextEl: '.banner_box_wrapper .swiper-button-next',
