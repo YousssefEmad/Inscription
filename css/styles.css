@@ -10561,7 +10561,7 @@ html input[disabled] {
 }
 @media (max-width: 1600px) {
   .int_infosidebar {
-    top: -100px;
+    top: -55px;
   }
 }
 /*-----------------------------------*/
@@ -27747,10 +27747,13 @@ img {
 }
 @media screen and (max-width: 1540px) {
   .container-header {
-    justify-content: space-between;
+    justify-content: space-around;
   }
 }
 @media screen and (max-width: 767px) {
+  .container-header {
+    justify-content: space-between;
+  }
   .header-top {
     padding: 0px;
   }
@@ -36442,11 +36445,6 @@ html input[disabled] {
 @media (max-width: 480px) {
   .main_contentblock {
     width: 100%;
-  }
-}
-@media (max-width: 1600px) {
-  .int_infosidebar {
-    top: -100px;
   }
 }
 /*-----------------------------------*/
